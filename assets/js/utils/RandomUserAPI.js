@@ -11,4 +11,3 @@ export function getRandomApi() {
       receiveRandom(response.body);
     });
 }
-

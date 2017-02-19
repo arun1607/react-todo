@@ -34,23 +34,10 @@ export default class EditTodo extends React.Component {
 
       <tr>
         <td>
-          <input
-            type="text"
-            value={this.state.text}
-            onChange={this._onChange}
-            onKeyDown={this._catchEnter}
-            placeholder="Add new todo..."
-            className="form-control"
-            autoFocus="true"
-          />
+          <input type="text" value={this.state.text} onChange={this._onChange} onKeyDown={this._catchEnter} placeholder="Add new todo..." className="form-control" autoFocus="true"/>
         </td>
         <td>
-          <button type="button"
-            onClick={this._save}
-            className="btn btn-link pull-right">
-            <span
-              className="glyphicon glyphicon-plus"
-              aria-hidden="true">
+          <button type="button" onClick={this._save} className="btn btn-link pull-right"> <span className="glyphicon glyphicon-plus" aria-hidden="true">
             </span>
           </button>
         </td>
@@ -60,4 +47,3 @@ export default class EditTodo extends React.Component {
   }
 
 }
-

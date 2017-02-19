@@ -6,4 +6,3 @@ React.render(
   <TodoApp />
   , document.body
 );
-

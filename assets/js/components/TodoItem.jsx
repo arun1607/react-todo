@@ -18,13 +18,7 @@ export default class TodoItem extends React.Component {
       <tr>
         <td>{this.props.item}</td>
         <td>
-          <button
-            type="button"
-            onClick={this._delete}
-            className="btn btn-link pull-right">
-            <span
-              className="glyphicon glyphicon-remove"
-              aria-hidden="true">
+          <button type="button" onClick={this._delete} className="btn btn-link pull-right"> <span className="glyphicon glyphicon-remove" aria-hidden="true">
             </span>
           </button>
         </td>
@@ -38,4 +32,3 @@ TodoItem.propTypes = {
   index: React.PropTypes.number,
   item: React.PropTypes.string,
 };
-

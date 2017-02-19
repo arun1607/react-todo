@@ -6,4 +6,3 @@ export const TodoConstants = {
   GET_RANDOM: 'GET_RANDOM',
   GET_RANDOM_RESPONSE: 'GET_RANDOM_RESPONSE',
 };
-

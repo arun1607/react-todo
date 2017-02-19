@@ -13,14 +13,14 @@ export function addItem() {
 export function saveItem(text) {
   AppDispatcher.handleViewAction({
     actionType: TodoConstants.SAVE_ITEM,
-    text: text,
+    text,
   });
 }
 
 export function removeItem(index) {
   AppDispatcher.handleViewAction({
     actionType: TodoConstants.REMOVE_ITEM,
-    index: index,
+    index,
   });
 }
 
@@ -31,4 +31,3 @@ export function getRandom() {
 
   getRandomApi();
 }
-
